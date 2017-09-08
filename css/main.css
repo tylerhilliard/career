@@ -1,1 +1,48 @@
-hi
+@font-face {
+    font-family: 'Chunk Five';
+    src: url('fonts/chunkfive-webfont.woff2') format('woff2'),
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kaushan Script';
+    src: url('fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	background-color: #556b2f;
+;
+}
+
+.container {
+	background-color: #fff;
+	padding: 50px;
+}
+
+h1 {
+	font-family: 'Kaushan Script',serif;
+	color: #fff;
+}
+
+p {
+	font-family: 'Chunk Five', sans-serif;
+	color: #fff;
+    font-size:18px;
+    margin-bottom:20px;
+}
+li{
+    display:inline-block;
+    list-style-type:none;
+    margin-right:15px;
+
+}
+li a{
+    background-color: white;
+    padding: 15px;
+
+}
+li a:hover{
+    background-color: lightblue;
+    color:white;
+}
